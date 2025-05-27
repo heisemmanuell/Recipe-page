@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'outfit';
+  src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'young-serif';
+  src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
+body{
+  background-color: hsl(30, 18%, 87%);
+  color: hsl(30, 10%, 34%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  color: hsl(14, 45%, 36%);
+}
+
+ h1, h2{
+  font-family: 'young-serif', sans-serif;
+}
+
+li, p, table, h3{
+  font-family: 'outfit', sans-serif;
+} 
+
+.container{
+  background-color: hsl(0, 0%, 100%);
+  width: 500px;
+  max-width: 90vw;
+  height: auto;
+  padding: 1.7rem;
+  border-radius: 1rem;
+}
+
+.omelette-img{
+  width: 100%;
+  height: auto;
+  border-radius: 0.7rem;
+}
+
+.recipe-prep{
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 0.5rem;
+  padding: 1.3rem; 
+  padding-left: 2rem;
+}
+
+.recipe-prep li{
+  margin-bottom: 0.4rem;
+}
+
+.recipe-prep h3{
+  color: hsl(332, 51%, 32%);
+  margin-left: 1rem;
+  margin: 0;
+  line-height: 1.3rem;
+  margin: 0 0 8px 0;
+}
+
+.ingredients-list li{
+  margin-bottom: 0.4rem;
+}
+
+p{
+  line-height: 1.5rem;
+}
+
+ ul, ol {
+  list-style-position: inside; 
+  margin: 0;
+  padding-left: 0; /* Remove default indent */
+  line-height: 1.6rem;
+}
+
+li::marker{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+hr{
+  margin: 1.6rem 0rem;
+}
+
+ol{
+  list-style: decimal;
+  padding-left: 1.5rem;
+  margin-left: -2px;
+}
+
+ol li {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: 1rem;
+  border-bottom: 0.1rem solid #ccc;
+}
+
+table th {
+  font-weight: normal;
+  text-align: left;
+  padding-left: 1.6rem;
+}
+
+table tr:last-child th,
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table td{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
